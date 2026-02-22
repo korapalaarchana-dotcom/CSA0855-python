@@ -1,0 +1,11 @@
+arr1=[1,3,2,5,4,6]
+arr2=[9,8,7]
+arr3=arr1+arr2
+print("merged array",arr3)
+arr3.sort(reverse=True)
+print("reverse sorted array",arr3)
+
+
+OUTPUT:
+merged array [1, 3, 2, 5, 4, 6, 9, 8, 7]
+reverse sorted array [9, 8, 7, 6, 5, 4, 3, 2, 1]

@@ -1,0 +1,10 @@
+n=float(1.5)
+square=n**2
+cube=n**3
+print("SQUARE OF THE NUMBER IS",square)
+print("CUBE OF THE NUMBER IS",cube)
+
+
+output:
+SQUARE OF THE NUMBER IS 2.25
+CUBE OF THE NUMBER IS 3.375

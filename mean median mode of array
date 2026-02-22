@@ -1,0 +1,14 @@
+arr=[1,3,2,5,4,6]
+mean=sum(arr)/len(arr)
+arr.sort()
+median=arr[len(arr)//2]
+mode=max(arr,key=arr.count)
+print("MEAN IS",mean)
+print("MODE IS",mode)
+print("MEDIAN IS",median)
+
+
+output:
+MEAN IS 3.5
+MODE IS 1
+MEDIAN IS 4

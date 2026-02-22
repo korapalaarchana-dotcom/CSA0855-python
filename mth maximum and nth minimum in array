@@ -1,0 +1,19 @@
+arr=[1,3,2,4,5,7,6]
+n=2
+m=3
+arr.sort()
+nthmin=arr[n-1]
+mthmax=arr[-m]
+sum=nthmin+mthmax
+difference=nthmin-mthmax
+print("NTH MINIMUM",nthmin)
+print("MTH MAXIMUM",mthmax)
+print("SUM",sum)
+print("DIFFERENCE",difference)
+
+
+output:
+NTH MINIMUM 2
+MTH MAXIMUM 5
+SUM 7
+DIFFERENCE -3
